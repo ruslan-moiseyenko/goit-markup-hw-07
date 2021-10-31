@@ -390,7 +390,7 @@ header a {
     margin-left: 30px;
 }
 
-.our-team .fio {
+.our-team .our-team__fio {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -865,7 +865,7 @@ footer {
     border-radius: 4px;
 }
 
-.filter .btn-filter {
+.filter .filter__btn {
     background-color: var(--ourteam-background-color);
     color: var(--title-text-color);
     font-weight: 500;
@@ -887,8 +887,8 @@ footer {
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-filter:hover,
-.btn-filter:focus {
+.filter__btn:hover,
+.filter__btn:focus {
     color: var(--main-white-color);
     background-color: var(--accent-color);
     border: 1px solid var(--accent-color);
@@ -960,7 +960,7 @@ footer {
     margin-bottom: 0;
 }
 
-.project-information-wrap {
+.gallery__project-information-wrap {
     width: 370px;
     position: relative;
     overflow: hidden;
@@ -968,7 +968,7 @@ footer {
 }
 
 
-.short-project-description {
+.gallery__short-project-description {
     position: absolute;
     top: 0;
     left: 0;
@@ -994,8 +994,8 @@ footer {
 }
 
 
-.link:hover .short-project-description,
-.link:focus .short-project-description {
+.link:hover .gallery__short-project-description,
+.link:focus .gallery__short-project-description {
     opacity: 1;
     transform: translateY(0);
 }
