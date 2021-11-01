@@ -16,11 +16,19 @@ footer {
 .adress--mb9 {
     display: block;
     margin-bottom: 9px;
+
+    color: $main-white-color;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.71;
 }
 
 .address-logo {
     display: block;
     margin-bottom: 20px;
+
 }
 
 .footer-h2 {
@@ -33,6 +41,7 @@ footer {
     color: $main-white-color;
     text-transform: uppercase;
 }
+
 
 .social-links {
     margin-left: 70px;

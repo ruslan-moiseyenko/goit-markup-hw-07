@@ -82,7 +82,6 @@
     width: 370px;
 
     overflow: hidden;
-
 }
 
 
@@ -116,6 +115,13 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.gallery__shortdescription {
+    padding-top: 20px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .gallery__h2 {

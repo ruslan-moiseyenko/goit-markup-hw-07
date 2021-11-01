@@ -14,17 +14,19 @@
         margin-left: 10px;
     }
 
+    color: $icons-color;
     display: block;
 
     width: 44px;
     height: 44px;
     border-radius: 50%;
 
+
 }
 
 .social-networks__item--dark {
     background: rgba(255, 255, 255, 0.1);
-
+    color: $main-white-color;
 }
 
 .social-networks__icon {
