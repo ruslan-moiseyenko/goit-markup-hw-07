@@ -251,6 +251,7 @@ a {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
+  font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -262,6 +263,11 @@ a {
 
 .logo--white {
   color: #ffffff;
+}
+
+.address-logo {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .hero {
@@ -408,6 +414,7 @@ a {
 }
 
 .our-team__item {
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -501,9 +508,8 @@ footer {
   line-height: 1.71;
 }
 
-.address-logo {
-  display: block;
-  margin-bottom: 20px;
+.adress--gray {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-h2 {
